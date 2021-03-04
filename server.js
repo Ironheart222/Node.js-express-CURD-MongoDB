@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const router = require('./routes/user-router')
-const url = 'mongodb+srv://hemang:hemang@cluster0.nldzu.mongodb.net/mydb?retryWrites=true&w=majority'
+const url = 'mongodb+srv://username:password@cluster0.nldzu.mongodb.net/mydb?retryWrites=true&w=majority'
 const app = express()
 
 mongoose.connect(url, {useNewUrlParser:true})
